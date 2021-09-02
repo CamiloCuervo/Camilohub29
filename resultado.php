@@ -28,11 +28,11 @@
     }
 
 
-    for ($i=0; $i < 20; $i++) { 
+    for ($i=0; $i < 5; $i++) { 
         $numeros[$i]=rand(0,100);
     }
 
-    for ($i=0; $i <20 ; $i++) { 
+    for ($i=0; $i <5 ; $i++) { 
         echo $numeros[$i].',';
     }
     echo '<br>';

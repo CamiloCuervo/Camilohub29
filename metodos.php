@@ -2,18 +2,18 @@
 
 class funcion {
     
-    public $numero;
-    public $numeros=array();
+    public $num;
+    public $nums1=array();
 
 
-    public function setnumero($numero)
+    public function setnumero($num)
     {
-        $this->numero=$numero;
+        $this->num=$num;
     }
 
-    public function getnumero($numero)
+    public function getnumero($num)
     {
-        return ($this->numero);
+        return ($this->num);
     }
 
     
@@ -21,3 +21,9 @@ class funcion {
 
     
 }//Llave de array
+
+
+
+
+
+?>

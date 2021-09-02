@@ -1,50 +1,44 @@
-<?php
-
-include ("metodos.php");
-
-
-if (isset($_GET['enviar'])) {
-    $numero=$_GET['longitud'];
-    echo "<br><br><br> El tamaño de los numeros es: $numero <br><br><br>";
-
-    $people=new funcion($numero);
-}//Llave de la clase
-
-
-
+<h1>RESULTADO</h1>
+    <?php 
+    include ("metodos.php");
     
-    echo "los numeros son: <br> $numero";
+    $num=$_POST['num'];
 
-
-    //Funcion Suma de Arreglos
-    $numeros=array();
-    
-    for ($i=0; $i < $numero; $i++) { 
-        $numeros[$i]=rand(0,10);
-    }   
-
-    for ($i=0; $i <$numero ; $i++) { 
-        echo $numeros[$i].'<br>';
+    $nums1=array();
+    for ($i=0; $i<$num ; $i++) { 
+        $nums1[$i]=rand(0,100);
+    }
+    for ($i=0; $i <$num ; $i++) { 
+        echo $nums1[$i].',';
     }
 
 
+    num($nums1);
+    function num($nums1){
+        $mayor=0;
+        $menor=0;
 
-
-    function Promedio($nums){
-        $suma=0;
-        for ($i=0; $i <count($nums) ; $i++) { 
-            $suma=0+$nums[$i];
+        foreach ($nums1 as $key){
+            if ($mayor < $key){
+                $mayor = $key;
+            }
+            if ($menor > $key){
+                $menor = $key; 
+    
+            }
         }
-        return $suma;
+    echo "<br>"."el numero mayor es".$mayor."<br>";
+    echo "el numero menor es".$menor."<br>";
     }
-
-
-
-
-
-
-
-    echo "<br><br> la promedio es: " .Promedio($numeros).'<br>';
-
-
-?>
+    ?>
+    
+    <?php 
+    function prom($numeros){
+        $sum=0;
+        for ($i=0; $i <count($numeros) ; $i++) { 
+            $sum+=$numeros[$i];
+        }
+        return $sum;
+    }
+    echo "el promedio es ".prom($nums1)/$num;
+    ?>
