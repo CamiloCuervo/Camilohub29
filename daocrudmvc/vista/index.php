@@ -12,6 +12,7 @@
     $Aprendices=$dao->listar();
     foreach ($Aprendices as $key) {
         echo $key->getNombre().'<br>';
+        //echo "hola";
     }
     ?>
 </div>    
