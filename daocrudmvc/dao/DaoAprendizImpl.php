@@ -22,8 +22,7 @@ class DaoAprendizImpl extends Conexion implements DaoAprendiz{
     }catch(PDOException $p){
         echo $p->getMessage().'***********************';
     }
-               
-        
+                       
     }    
     public function modificar(Aprendiz $a){        
         $nombre=$a->getNombre();
@@ -68,3 +67,4 @@ public function listar(){
     
 }
 ?>
+
