@@ -64,7 +64,7 @@ var mayor=v=>{
 console.log('el numero mayor de los valores del arreglo es :'+mayor(v));
 
 
-suma
+//suma
 function sum(n1,n2){
     res = n1+n2;
     return "la suma es :"+res;
@@ -100,7 +100,7 @@ console.log('la multiplicacion es '+multi(10,20));
 //divicion
 function division(n1,n2){
     res = n1/n2;
-    return "la division de "+n1+ "/" +n2+" es :"+res;
+    return "la division es : "+res;
 }
 console.log(division(5,2));
 
