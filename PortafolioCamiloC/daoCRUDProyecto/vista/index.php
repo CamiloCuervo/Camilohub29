@@ -9,14 +9,16 @@
 <body>
 <div class="div">
     <?php 
-    $Aprendices=$dao->listar();
-    foreach ($Aprendices as $key) {
+    $Personas=$dao->listar();
+    foreach ($Personas as $key) {
+        echo $key->getNumeroIdentificacion().'<br>';
         echo $key->getNombre().'<br>';
-        //echo "hola";
+        echo $key->getApellido().'<br>';
+        echo $key->getTelefono().'<br>';
+        echo $key->getCorreo().'<br>';
+        echo $key->getContrasena().'<br>';
     }
-    //include('DaoAprendizImpl');
     ?>
-</div> 
-
+</div>    
 </body>
 </html>

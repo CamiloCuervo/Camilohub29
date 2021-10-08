@@ -107,9 +107,3 @@ console.log(division(5,2));
 
 var div=(num1,num2)=>num1/num2;
 console.log('la division es '+div(20,5));
-
-
-
-
-
-

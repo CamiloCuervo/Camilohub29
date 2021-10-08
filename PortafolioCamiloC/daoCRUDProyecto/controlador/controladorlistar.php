@@ -4,19 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../vista/estilos.css">
     <title>Document</title>
 </head>
 <body>
-<div class="div">
-    <?php 
-    $Aprendices=$dao->listar();
-    foreach ($Aprendices as $key) {
-        echo $key->getNombre().'<br>';
-        //echo "hola";
-    }
-    //include('DaoAprendizImpl');
-    ?>
-</div> 
+<?php 
 
+require('../dao/DaoPersonaImpl.php');
+$dao=new DaoPersonaImpl();
+$Personas=$dao->listar();
+require('../vista/indexlistar.php');
+?>    
 </body>
 </html>
