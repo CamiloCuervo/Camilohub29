@@ -67,7 +67,7 @@
                 </div>
                 <div class="content-foo">
                     <h4>ubicacion</h4>
-                    <p>8296312</p>
+                    <p>Soacha,Cundinamarca</p>
                 </div>
             </div>
             <h2 class="titulo-final">&copy; Grupo ADSI | Camilo Cuervo</h2>
