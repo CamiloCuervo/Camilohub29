@@ -1,0 +1,4 @@
+base de datos unbicacion
+-el portafolio se encuentra en la carpeta ProtafolioCamiloC y la vista es indexinicio.php
+-el ejemplo de PDO con dao se encuentra en la carpeta ProtafolioCamiloC/daoCRUDProyectp
+-los ejercicios de javaScript se encuentran en ProtafolioCamiloC/EjerciciosJavaScript
