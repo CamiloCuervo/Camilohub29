@@ -55,7 +55,9 @@
                 </div>
             </div>
         </section>
-    <footer>
+
+</body>
+<footer>
             <div class="contenedor-footer">
                 <div class="content-foo">
                     <h4>Telefono</h4>
@@ -73,7 +75,4 @@
             <h2 class="titulo-final">&copy; Grupo ADSI | Camilo Cuervo</h2>
     </footer>
 
-    
-    
-</body>
 </html>
