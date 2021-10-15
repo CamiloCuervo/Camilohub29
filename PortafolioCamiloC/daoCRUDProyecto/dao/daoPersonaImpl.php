@@ -33,7 +33,7 @@ class DaoPersonaImpl extends Conexion implements DaoPersona{
         $telefono=$a->getTelefono();
         $correo=$a->getCorreo();
         $contrasena=$a->getContrasena();
-        $stmt=$this->getCnx()->prepare("UPDATE aprendiz " +
+        $stmt=$this->getCnx()->prepare("UPDATE persona " +
         "SET Identificacion =$id_persona," +
         "SET Nombre =$nombre," +
         "SET Apellido =$apellido," +

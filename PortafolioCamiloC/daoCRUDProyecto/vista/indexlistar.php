@@ -20,6 +20,7 @@
                     <th>TELEFONO</th>
                     <th>CORREO</th>
                     <th>CONTRASEÑA</th>
+                    <th>ACCIONES</th>
                 </tr>
             </thead>
             <tbody>
@@ -31,7 +32,8 @@
                     echo "<td>". $key->getApellido() . "</td>";
                     echo "<td>". $key->getTelefono() . "</td>";
                     echo "<td>". $key->getCorreo() . "</td>";
-                    echo "<td>". $key->getContrasena() . "</td></tr>";                   
+                    echo "<td>". $key->getContrasena() . "</td></tr>";  
+                                     
                 }?>
             </tbody>
     </table>

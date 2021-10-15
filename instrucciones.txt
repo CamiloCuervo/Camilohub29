@@ -1,6 +1,8 @@
 base de datos unbicacion
--el portafolio se encuentra en la carpeta ProtafolioCamiloC/indexinicio.php
--el ejemplo de PDO con dao se encuentra en la carpeta ProtafolioCamiloC/daoCRUDProyecto/controlador/controladorregistro.php
--los ejercicios de javaScript se encuentran en ProtafolioCamiloC/EjerciciosJavaScript
+-el portafolio se encuentra en la carpeta ProtafolioCamiloC/index.php
+-el ejemplo de PDO con dao se encuentra en la carpeta /PortafolioCamiloC/crud/index.php
+-los ejercicios de javaScript se encuentran en /PortafolioCamiloC/EjerciciosJavaScript/ejerOperAritmeticas/index.html
+-los ejercicios de javaScript se encuentran en /PortafolioCamiloC/EjerciciosJavaScript/ejerFraccionarios/indexfrac.html
 -los manuales de usuario estan en la carpeta ProtafolioCamiloC/ManualUsuario
+-Todo queda redireccionado en el modulo del portafolio 'Proyectos' 
 -el archivo sql de la base de datos del crud esta en ProtafolioCamiloC/daoCRUDProyecto/fruver_pdo.sql

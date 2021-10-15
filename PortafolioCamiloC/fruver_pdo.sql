@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 12-10-2021 a las 06:11:52
+-- Tiempo de generación: 15-10-2021 a las 09:48:34
 -- Versión del servidor: 10.4.17-MariaDB
 -- Versión de PHP: 8.0.2
 
@@ -28,6 +28,8 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `persona` (
+  `codPersona` int(15) NOT NULL,
+  `tipodoc` varchar(200) NOT NULL,
   `Id_persona` varchar(200) NOT NULL,
   `Nombre` varchar(200) NOT NULL,
   `Apellido` varchar(200) NOT NULL,
@@ -40,13 +42,30 @@ CREATE TABLE `persona` (
 -- Volcado de datos para la tabla `persona`
 --
 
-INSERT INTO `persona` (`Id_persona`, `Nombre`, `Apellido`, `Telefono`, `Correo`, `Contraseña`) VALUES
-('1012', 'Camilo', 'Cuervo', '3014391260', 'bccuervo@gmail.com', '12345'),
-('1013123698', 'Luisa', 'Castro', '3205968541', 'luisa@gmail.com', '789456'),
-('5698745632', 'Laura Daniela', 'Hernandez Casas', '3205968541', 'LauraD@gmail.com', '741852'),
-('9999', 'Raul', 'Ruiz', '3118963587', 'raul@gmail.com', '369852'),
-('1031145591', 'jonathan steven', 'naranjo diaz ', '3107523720', 'jonathannd2301@gmail.com', '12345'),
-('1031145591', 'jonathan steven', 'naranjo diaz ', '3107523720', 'jonathannd2301@gmail.com', '12345');
+INSERT INTO `persona` (`codPersona`, `tipodoc`, `Id_persona`, `Nombre`, `Apellido`, `Telefono`, `Correo`, `Contraseña`) VALUES
+(10, 'cc', '7894564', 'Raul', 'Ruiz', '3118964785', 'raul@gmail.com', '456879654'),
+(12, 'cc', '8965142', 'luisa', 'castro', '3118964785', 'luisa@gmail.com', '98777126'),
+(13, 'cc', '1012423120', 'Camilo', 'Cuervo', '3014391260', 'bccuervo0@misena.edu.co', '123456');
+
+--
+-- Índices para tablas volcadas
+--
+
+--
+-- Indices de la tabla `persona`
+--
+ALTER TABLE `persona`
+  ADD PRIMARY KEY (`codPersona`);
+
+--
+-- AUTO_INCREMENT de las tablas volcadas
+--
+
+--
+-- AUTO_INCREMENT de la tabla `persona`
+--
+ALTER TABLE `persona`
+  MODIFY `codPersona` int(15) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

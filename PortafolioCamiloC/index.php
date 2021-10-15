@@ -43,7 +43,7 @@
         <h1>Hola, <span></span></h1>
         <h1>Soy Camilo <span></span></h1>
         <h1>Conoce mas de mi trabajo de desarrollo <span></span></h1>
-        <a href="#projects" type="button" class="cta">Portfolio</a>
+        <a href="#projects" type="button" class="cta">Portafolio</a>
       </div>
     </div>
   </section>
@@ -96,7 +96,7 @@
             <h1>Proyecto 1</h1>
             <h2>Dao CRUD Aplicado a tabala de Proyecto</h2>
             <p>Creacion de ejemplo de PDO con metodo dao en el cual aplicamos dicha metodologia a una tabla del proyecto de formacion SENA</p>
-            <a href="http://localhost/camilo2142329/PortafolioCamiloC/daoCRUDProyecto/controlador/controladorregistro.php"><button>clik aqui</button></a>
+            <a href="../PortafolioCamiloC/crud/index.php"><button>clik aqui</button></a>
           </div>
           <div class="project-img">
             <img src="./imagenes/images5.jpg" alt="imagenes">
@@ -109,18 +109,18 @@
             <p>Ejercicio en el cual generamos un Array que fuera actualizando sus valores al recargar la pagina y creamos funciones de suma de los elementos del 
             Array y tambien funciones que diera como respuesta en consola el numero mayor ,el numero menor , y el promedio 
             de los valores del Array </p>
-            <a href="http://localhost/camilo2142329/PortafolioCamiloC/EjerciciosJavaScript/ejerOperAritmeticas/index.html"><button>clik aqui</button></a>
+            <a href="../PortafolioCamiloC/EjerciciosJavaScript/ejerOperAritmeticas/index.html"><button>clik aqui</button></a>
           </div>
           <div class="project-img">
             <img src="./imagenes/images6.png" alt="imagenes">
           </div>
         </div>
         <div class="project-item">
-          <div class="project-info">
+          <div class="project-info"> 
             <h1>Proyecto 3</h1>
             <h2>Fracciones JSON</h2>
             <p>Ejercicio de suma de fraccinarion en javaScript</p>
-            <a href="http://localhost/camilo2142329/PortafolioCamiloC/EjerciciosJavaScript/ejerFraccionarios/frac1.html"><button>clik aqui</button></a>
+            <a href="../PortafolioCamiloC/EjerciciosJavaScript/ejerFraccionarios/indexfrac.html"><button>clik aqui</button></a>
           </div>
           <div class="project-img">
             <img src="./imagenes/images7.jpg" alt="imagenes">
@@ -128,12 +128,15 @@
         </div>
         <div class="project-item">
           <div class="project-info">
-            <h1>cargue aqui proximo proyecto</h1>
-            <h2>futuro proyecto</h2>
-            <p></p>
+            <h1>Manuales de usuarios</h1>
+            <h2>como se crea un manual de usuario y un manual tecnico</h2>
+            <p>Creacion de pagina donde explicamos paso a paso como se crea un manual de usuario y un manual tecnico de software</p>
+            <a href="../PortafolioCamiloC/ManualUsuario/ManualU.html"><button>Maual usuarios</button></a> 
+            <br> 
+            <a href="../PortafolioCamiloC/ManualUsuario/ManualT.html"><button>Manual Tecnico</button></a>
           </div>
           <div class="project-img">
-            <img src="./img/img-1.png" alt="img">
+            <img src="./imagenes/images8.png" alt="imagenes">
           </div>
         </div>
       </div>
@@ -153,8 +156,8 @@
       <div class="col-right">
         <h1 class="section-title">Sobre<span>Mi</span></h1>
         <h2>Desarrollador Wed</h2>
-        <p>sdfdfsdddsffffffffffffffffffffffffffffffdsfsdfsdddddddddddddddddddddddddfsdfsdfsdfsdfsdfssss
-            sdfsdfsdfsdfsfssfsd
+        <p>Cuento con conocimiento en analisis y desarrollo de sisitemas de informacion, tengo manejo en editores de codigo
+           y a su vez bases de datos ,cuento co conocimiento en HTML, CSS, PHP, JAVASCRIPT, LARAVEL, 
         </p>
         <a href="#" class="cta">Descargue HV</a>
       </div>
